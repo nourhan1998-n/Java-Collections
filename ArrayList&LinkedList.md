@@ -1,6 +1,3 @@
-Of course, Noura! Here are some **tricky interview questions** about Java’s `ArrayList` and `LinkedList` that might challenge your understanding of the concepts. These questions often appear in technical interviews to assess both theoretical knowledge and practical experience.
-
----
 
 ### 1. **What will happen if you try to insert an element at index 10 in an `ArrayList` that has only 5 elements?**
 
