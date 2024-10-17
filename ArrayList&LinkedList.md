@@ -288,6 +288,7 @@ This question tests your understanding of `ConcurrentModificationException`.
 ---
 
 ### 10. **Why are `ArrayList` and `LinkedList` not synchronized, and how would you synchronize them?**
+**Are `ArrayList` and `LinkedList` thread safe?**
 
 This is an advanced question that tests concurrency concepts.
 
