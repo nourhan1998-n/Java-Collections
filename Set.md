@@ -13,6 +13,7 @@ Here’s a breakdown of the `Set` interface and its common implementations:
 
 #### **1. HashSet**
    - **Description**: `HashSet` is the most common implementation of the `Set` interface. It uses a hash table to store elements, meaning it is **unordered and unsorted**.
+HashSet relies on a hash table structure through HashMap, it does not extend or use the Hashtable class itself. This approach lets HashSet manage unique elements efficiently using HashMap’s internal hash-based structure.
    - **Performance**: `HashSet` provides constant time performance (O(1)) for basic operations like `add`, `remove`, and `contains`, assuming a good hash function.
    - **Null Values**: Allows one null element.
    - **Usage**: Ideal for applications where quick lookup and insertion are required, and ordering of elements is not a concern.
